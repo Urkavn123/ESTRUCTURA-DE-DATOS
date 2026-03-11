@@ -52,13 +52,13 @@ class sistemaPuerto {
 
         if (contadorBuques < 10) {
 
-            // 🔹 ID aleatorio
+            //  ID aleatorio
             String id = "B" + (100 + r.nextInt(900)); // ID entre B100 y B999
 
-            // 🔹 Peso aleatorio
+            //  Peso aleatorio
             double peso = 5000 + r.nextInt(5001); // peso mayor que contenedores
 
-            // 🔹 Origen aleatorio
+            //  Origen aleatorio
             String[] paises = { "Colombia", "China", "USA", "Brasil", "España" };
             String origen = paises[r.nextInt(paises.length)];
 
@@ -77,13 +77,13 @@ class sistemaPuerto {
 
     public void registrarContenedor() {
 
-        // 🔹 ID aleatorio
+        //  ID aleatorio
         String id = "C" + (1000 + r.nextInt(9000)); // ID entre C1000 y C9999
 
-        // 🔹 Peso aleatorio
+        //  Peso aleatorio
         double peso = 100 + r.nextInt(901);
 
-        // 🔹 Origen aleatorio
+        //  Origen aleatorio
         String[] paises = { "Colombia", "China", "USA", "Brasil", "España" };
         String origen = paises[r.nextInt(paises.length)];
 
