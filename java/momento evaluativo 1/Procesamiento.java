@@ -23,14 +23,14 @@ public class Procesamiento {
         }
         // SEGUNDO PASO: matriz 3x3 con los valores filtrados
         int[][] mapaCarga = new int[3][3];
-        int index = 0;
+        int j = 0;
 
         for (int fila = 0; fila < 3; fila++) {
             for (int col = 0; col < 3; col++) {
 
                 if (filtrados10 != null && index < filtrados10.length) {
                     mapaCarga[fila][col] = filtrados10[index];
-                    index++;
+                    j++;
                 } else {
                     mapaCarga[fila][col] = -1;
                 }
